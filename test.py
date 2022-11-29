@@ -1,9 +1,8 @@
-from cebrify import csvReader
-from cebrify import maxFinder, minFinder
+import cebrify
 
-print(csvReader("./data/aaa.csv"))
+print(cebrify.csvReader("./data/aaa.csv"))
 
-print(maxFinder(0,-2,-312,89,-324,321,-45)) # give us a tupel with parameters.
+print(cebrify.maxFinder(0,-2,-312,89,-324,321,-45)) # give us a tupel with parameters.
 
-print(minFinder(0,-2,-312,89,-324,321,-45)) # give us a tupel with parameters.
+print(cebrify.minFinder(0,-2,-312,89,-324,321,-45)) # give us a tupel with parameters.
 
